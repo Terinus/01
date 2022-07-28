@@ -94,7 +94,7 @@ class HomeState extends ConsumerState<Home> {
               controller: newTodoController,
               cursorColor: Theme.of(context).colorScheme.secondary,
               decoration:
-                  const InputDecoration(labelText: 'What needs to be done?'),
+                  const InputDecoration(labelText: 'MOMO IS UGLY GAT?'),
               onSubmitted: (value) {
                 ref.read(todoListProvider.notifier).add(value);
                 newTodoController.clear();
